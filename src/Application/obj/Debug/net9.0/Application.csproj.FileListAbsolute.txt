@@ -1,0 +1,16 @@
+D:\ComputerClubAdministration\src\Application\bin\Debug\net9.0\Application.deps.json
+D:\ComputerClubAdministration\src\Application\bin\Debug\net9.0\Application.dll
+D:\ComputerClubAdministration\src\Application\bin\Debug\net9.0\Application.pdb
+D:\ComputerClubAdministration\src\Application\bin\Debug\net9.0\Core.dll
+D:\ComputerClubAdministration\src\Application\bin\Debug\net9.0\Core.pdb
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.sourcelink.json
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.dll
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\refint\Application.dll
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\Application.pdb
+D:\ComputerClubAdministration\src\Application\obj\Debug\net9.0\ref\Application.dll
