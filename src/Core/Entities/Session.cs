@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class Session
+public class Session : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public decimal Price { get; set; }
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }

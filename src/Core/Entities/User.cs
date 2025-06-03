@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class User
+public class User : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string telephone { get; set; }

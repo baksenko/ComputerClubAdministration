@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class Equipment
+public class Equipment : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string Type { get; set; }
     public string SerialNumber { get; set; }
     public string Model { get; set; }

@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class WorkStation
+public class WorkStation : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string Type { get; set; }
     public int Place { get; set; }
     public string category {get; set;}  

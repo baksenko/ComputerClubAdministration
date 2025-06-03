@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class ComputerClub
+public class ComputerClub : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string Address { get; set; }
     public DateTime StartWorkHour { get; set; }
     public DateTime EndWorkHour { get; set; }

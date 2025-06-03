@@ -1,8 +1,7 @@
 ﻿namespace Core.Entities;
 
-public class Administrator
+public class Administrator : BaseEntity
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Email { get; set; }

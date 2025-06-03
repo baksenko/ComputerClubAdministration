@@ -3,6 +3,7 @@
 .env.local
 .env.*.local
 appsettings.json
+compose.yaml
 
 # IDE
 .idea/

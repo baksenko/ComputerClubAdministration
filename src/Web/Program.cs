@@ -9,12 +9,15 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-var connectionString = builder.Configuration.GetConnectionString("ComputerCLubDb");
+var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__Default");
 
 builder.Services.AddDbContext<ComputerClubDbContext>(options => options.UseNpgsql(connectionString));
 
+
 var app = builder.Build();
 
+
+app.MapGet("/", () => "Computer Club");
 
 app.UseHttpsRedirection();
 
