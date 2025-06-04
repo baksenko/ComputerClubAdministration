@@ -1,9 +1,14 @@
-﻿namespace Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Core.Entities;
 
 public class WorkStation : BaseEntity
 {
+    [Required]
     public string Type { get; set; }
+    [Required]
     public int Place { get; set; }
+    [Required]
     public string category {get; set;}  
     public ComputerClub ComputerClub { get; set; }
     public List<Equipment> Equipments { get; set; }

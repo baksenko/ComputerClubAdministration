@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastrucutre.Migrations
 {
     [DbContext(typeof(ComputerClubDbContext))]
-    [Migration("20250531132037_Initial")]
+    [Migration("20250604085028_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -175,6 +175,7 @@ namespace Infrastrucutre.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("FirstName")
