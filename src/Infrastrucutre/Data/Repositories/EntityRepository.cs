@@ -1,12 +1,12 @@
 ﻿using Core.Entities;
-using Core.Interfaces;
+using Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastrucutre.Data.Repositories;
 
 public abstract class EntityRepository<T> : IRepository<T> where T : BaseEntity
 {
-    private readonly ComputerClubDbContext _context;
+    protected readonly ComputerClubDbContext _context;
 
     public EntityRepository(ComputerClubDbContext context)
     {

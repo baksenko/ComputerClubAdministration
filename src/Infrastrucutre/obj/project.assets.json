@@ -918,6 +918,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -2815,6 +2828,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
@@ -2823,7 +2841,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Core >= 1.0.0",
+      "Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
@@ -2855,8 +2873,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\ComputerClubAdministration\\src\\Core\\Core.csproj": {
-              "projectPath": "D:\\ComputerClubAdministration\\src\\Core\\Core.csproj"
+            "D:\\ComputerClubAdministration\\src\\Application\\Application.csproj": {
+              "projectPath": "D:\\ComputerClubAdministration\\src\\Application\\Application.csproj"
             }
           }
         }

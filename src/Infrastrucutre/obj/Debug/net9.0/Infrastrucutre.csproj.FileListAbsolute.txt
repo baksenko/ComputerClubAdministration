@@ -16,3 +16,5 @@ D:\ComputerClubAdministration\src\Infrastrucutre\obj\Debug\net9.0\refint\Infrast
 D:\ComputerClubAdministration\src\Infrastrucutre\obj\Debug\net9.0\Infrastrucutre.pdb
 D:\ComputerClubAdministration\src\Infrastrucutre\obj\Debug\net9.0\Infrastrucutre.genruntimeconfig.cache
 D:\ComputerClubAdministration\src\Infrastrucutre\obj\Debug\net9.0\ref\Infrastrucutre.dll
+D:\ComputerClubAdministration\src\Infrastrucutre\bin\Debug\net9.0\Application.dll
+D:\ComputerClubAdministration\src\Infrastrucutre\bin\Debug\net9.0\Application.pdb

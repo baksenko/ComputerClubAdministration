@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
+builder.Services.AddSwaggerGen();
+
 var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__Default");
 
 builder.Services.AddDbContext<ComputerClubDbContext>(options => options.UseNpgsql(connectionString));
@@ -16,6 +18,11 @@ builder.Services.AddDbContext<ComputerClubDbContext>(options => options.UseNpgsq
 
 var app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+app.UseSwagger();
+app.UseSwaggerUI();
+}
 
 app.MapGet("/", () => "Computer Club");
 

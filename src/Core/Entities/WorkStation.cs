@@ -9,7 +9,7 @@ public class WorkStation : BaseEntity
     [Required]
     public int Place { get; set; }
     [Required]
-    public string category {get; set;}  
+    public string Category {get; set;}  
     public ComputerClub ComputerClub { get; set; }
     public List<Equipment> Equipments { get; set; }
     public List<Session> Sessions { get; set; }
