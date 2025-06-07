@@ -37,7 +37,7 @@ public abstract class EntityRepository<T> : IRepository<T> where T : BaseEntity
         return users;
     }
 
-    public async Task<T> UpdateAsync(T entity)
+    public async Task<T?> UpdateAsync(T entity)
     {
          var exists =  await _context
             .Set<T>()
@@ -67,7 +67,7 @@ public abstract class EntityRepository<T> : IRepository<T> where T : BaseEntity
         return true;
     }
 
-    public async Task<T> CreateAsync(T entity)
+    public async Task<T?> CreateAsync(T entity)
     {
         _context.Add(entity);
         
